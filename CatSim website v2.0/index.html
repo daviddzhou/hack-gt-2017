@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<title>CS-TA FIESTA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.container {
+  position: relative;
+  width: relative;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+</style>
+	<body>
+
+	
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-wide w3-padding-0 w3-card-2">
+    <a href="#home" class="w3-bar-item w3-button"><h4><b>CS-TA</b> FIESTA HackGT 2017</h4></a>
+    <!-- Float links to the right. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#game" class="w3-bar-item w3-button"><h4>Game</h4></a>
+	  <a href="#cats" class="w3-bar-item w3-button"><h4>Cats</h4></a>
+      <a href="#about" class="w3-bar-item w3-button"><h4>About</h4></a>
+      <a href="#contact" class="w3-bar-item w3-button"><h4>Contact</h4></a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="cat.png" alt="Cats" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center">
+    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>CS-TA</b></span> <span class="w3-hide-small w3-text-black">FIESTA</span></h1>
+	  
+  </div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <!-- Project Section -->
+<div class="w3-container w3-padding-32" id="game">
+    <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b>Game</b></h1>
+  
+  <p>This cat simulator is the accumulation of the combined efforts of CS-TA FIESTA in the 2017 HackGT event. Coming together to solve multiple barriers in not only learning new languages, but also working in new environemnts and facing stringent time constraints.</p>
+	
+
+  <p>We present to you this game in the hopes that it can be realized that anything can be turned into a reality with the right people and the motivation to learn and succeed.</p>
+  
+	<font size = "+2"><b><a href="CatSim.zip" class="w3-button w3-black w3-section w3-display-center" download ZIP>Game Link</a></b></font>
+	</div>	
+	
+	
+  <div class="w3-container w3-padding-32" id="cats">
+    <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b>Cats Featured In Our Game</b></h1>
+  </div>
+
+  <div class="w3-row-padding">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Pusheen</div>
+		  <div class="container">
+  <img src="pusheen.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+	  <div class="text"><strong><font size = "+3">Pusheen</font></strong></div>
+  </div>
+</div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+        <div class="w3-display-topleft w3-black w3-padding">Nyan Cat</div>
+        <div class="container">
+  <img src="nyancat.png" alt="Avatar" class="image">
+  <div class="overlay">
+	  <div class="text"><strong><font size = "+3">Nyan Cat</font></strong></div>  
+  </div>
+</div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-display-container">
+		  <div class="w3-display-topleft w3-black w3-padding">Doraemon</div>
+		  <div class="container">
+  <img src="doraemon.png" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><strong><font size = "+3">Doraemon</font></strong></div>
+  </div>
+</div>
+      </div>
+    </div>
+	<div class="w3-col l3 m6 w3-margin-bottom">
+		<div class="w3-display-container">
+			<div class="w3-display-topleft w3-black w3-padding">Grumpy Cat</div>
+			<div class="container">
+  <img src="grumpy.jpg" alt="Avatar" class="image">
+  <div class="overlay">
+    <div class="text"><strong><font size = "+3">Grumpy Cat</font></strong></div>
+  </div>
+</div>
+		</div>
+	</div>
+    
+  </div>
+
+ 
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h1 class="w3-border-bottom w3-border-light-grey w3-padding-16"><b>About</b></h1>
+  
+  
+  <p>Each of us come from different majors, backgrounds, and experience levels. However, coming together and building a full-fledged project through this event has allowed us to bond over the semantics and intricacy that is inherent in a group environment. </p>
+  </div>
+
+  <div class="w3-row-padding w3-color">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="adrianna.jpg" alt="Adrianna" style="width:100%">
+      <h3>Adrianna Fu</h3>
+      <p class="w3-opacity">Captain & Software Developer</p>
+      <p>Adrianna is the captain of CS-FIESTA and the resident pun master. She is a first-year BME student at Georgia Tech from Naperville, Illinois with a love for bananas and cute objects</p>
+		<p>
+Contact Adrianna:
+<a href="mailto:adriannafu@gatech.edu?Subject=HackGT 2017" target="_top">adriannafu@gatech.edu</a>
+</p>
+      
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="nathan.jpg" alt="Nathan" style="width:100%">
+      <h3>Nathan Chan</h3>
+      <p class="w3-opacity">Software Developer</p>
+		<p>Nathan (a.k.a Natedogg) is a software developer and the in-house animator/physics specialist. Nathan is a first-year BME student at Georgia Tech from San Jose, California. He is in love with creative playlist titles and the search for the perfect guacamole.</p>
+      <p>
+Contact Nathan:
+<a href="mailto:nchan@gatech.edu?Subject=HackGT 2017" target="_top">nchan@gatech.edu</a>
+</p>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="carl.jpg" alt="Carl" style="width:100%">
+      <h3>Carl Liu</h3>
+      <p class="w3-opacity">Software Developer</p>
+      <p>Carl is a software developer and the creator of the idea for this project. Carl is a first-year Industrial Engineering student at Georgia Tech from Marietta, Georgia and truly loves cats and would like the world to know that.</p>
+		<p>
+Contact Carl:
+<a href="mailto:carlliu@gatech.edu?Subject=HackGT 2017" target="_top">carlliu@gatech.edu</a>
+</p>
+      
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <img src="david.jpg" alt="David" style="width:100%">
+      <h3>David Zhou</h3>
+      <p class="w3-opacity">Web Developer</p>
+      <p>David is the web developer for this project and the foodie of the group. David is a first-year Computer Engineering student at Georgia Tech from San Diego, California and finds rice extremely scrumptious.</p>
+		<p>
+Contact David:
+<a href="mailto:dzhou71@gatech.edu?Subject=HackGT 2017" target="_top">dzhou71@gatech.edu</a>
+</p>
+    </div>
+  </div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-padding-32" id="contact">
+<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+<p>Get in touch and talk about our project.</p>
+<form action="response.php" target="_blank">
+  <input class="w3-input" type="text" placeholder="Name" required name="Name">
+  <input class="w3-input w3-section" type="text" placeholder="Email" required name="Email">
+  <input class="w3-input w3-section" type="text" placeholder="Subject" required name="Subject">
+  <input class="w3-input w3-section" type="text" placeholder="Comment" required name="Comment">
+  <button class="w3-button w3-black w3-section" type="submit">
+	<i class="fa fa-paper-plane"></i> SEND MESSAGE
+  </button>
+</form>
+</div>
+	</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="https://hack.gt" title="HackGT" target="_blank" class="w3-hover-text-green">HackGT 2017</a></p>
+</footer>
+
+
+
+</body>
+</html>
